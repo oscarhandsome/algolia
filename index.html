@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, algolia!</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10/dist/instantsearch.min.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-12">
+            <h2>Lesson 3</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label for="search">Custom select</label>
+            <div id="menu"></div>
+            <div id="hits"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>Hello, this is demo of the algolia, please try to search your favorite actor to see his Raiting.</h2>
+
+    <div class="row">
+        <div class="col-12">
+            <h2>Lesson 1</h2>
+            <label for="search-box">Simple search</label>
+            <input type="text" autocomplete="off" id="search-box"/>
+
+            <ul id=facet-list></ul>
+            <ul id=container></ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-12">
+            <h2>Lesson 2</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label for="search">Infinite Scroll</label>
+            <input type="text" id="search" />
+            <div id="hits-container"></div>
+            <div id="pagination"></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10/dist/instantsearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/g/algoliasearch@3(algoliasearchLite.min.js),algoliasearch.helper@2"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>

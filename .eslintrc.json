@@ -1,0 +1,31 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+    "rules": {
+        "comma-dangle": [
+            2,
+            "always-multiline"
+        ],
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            0,
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

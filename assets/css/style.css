@@ -1,0 +1,83 @@
+#search-box {
+  margin: 1em 1em 3em;
+  width: calc(100% - 2em);
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+#facet-list,
+#container{
+  max-width: 150px;
+  width: 100%;
+  float: left;
+  padding: 0 1em;
+  margin: 0;
+  list-style: none;
+}
+
+#facet-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #ccc;
+}
+#facet-list li input {
+  margin-right: 6px;
+}
+
+#container {
+  max-width: calc(100% - 150px - 4em);
+}
+#container li {
+  padding: 8px 0;
+}
+
+#container em {
+  background: yellow;
+}
+
+
+.ais-search-box{
+  margin-bottom: 1rem;
+}
+
+.ais-infinite-hits,
+#hits-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hit{
+  width: 19.5%;
+}
+
+@media (max-width: 1199.98px) {
+  .hit{
+    width: auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hit{
+    width: 49%;
+  }
+
+  .actor_image{
+    width: 100%;
+    max-width: none;
+    min-height: auto;
+  }
+}
+
+.actor_image{
+  max-width: 200px;
+  min-height: 300px;
+  object-fit: contain;
+}
+
+.actor_name{
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+}
