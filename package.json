@@ -5,7 +5,7 @@
   "main": "index.html",
   "dependencies": {
     "algoliasearch": "^3.30.0",
-    "algoliasearch-helper": "^2.26.1",
+    "algoliasearch-helper": "^3.6.2",
     "instantsearch.js": "^3.5.4",
     "underscore": "^1.9.1"
   },
